@@ -1,21 +1,14 @@
 name: Bug Report
-description: File a bug report
-title: "[Bug]: "
-labels: ["bug", "triage", "issue"]
-assignees:
-  - kuzmenkotb
-  - morozov02
+description: Send your bug report directly to our PM-s using this form.
+labels: ["bug"]
+assignees: ["kuzmenkotb", "morozov02"]
 body:
-  - type: markdown
-    attributes:
-      value: |
-        Thanks for taking the time to fill out this bug report!
   - type: input
     id: contact
     attributes:
       label: Contact Details
       description: How can we get in touch with you if we need more info?
-      placeholder: ex. @myTelegram
+      placeholder: @myTelegram
     validations:
       required: false
   - type: textarea
@@ -28,10 +21,10 @@ body:
     validations:
       required: true
   - type: dropdown
-    id: version
+    id: source
     attributes:
-      label: Version
-      description: What version of our software are you running?
+      label: Source
+      description: What software part contain an issue?
       options:
         - client
         - server
