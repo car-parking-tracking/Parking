@@ -1,6 +1,6 @@
 [submodule "client"]
 	path = client
-	url = https://github.com/car-parking-tracking/Parking.client/
+	url = git@github.com:car-parking-tracking/Parking.client.git
 [submodule "server"]
 	path = server
-	url = https://github.com/car-parking-tracking/Parking.server/
+	url = git@github.com:car-parking-tracking/Parking.server.git
